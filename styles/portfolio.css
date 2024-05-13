@@ -15,6 +15,18 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.section-description{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
 /* 
 extra button other design */
 .contact-button{
@@ -33,7 +45,7 @@ nav{
 
 font-size: 45px;
 font-weight: 800;
-color: var(--Dark-01, #181818);
+color: #181818;
 }
 
 nav >ul{
@@ -51,13 +63,56 @@ nav a{
 /* header related style */
 .header{
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom  right;
 }
 .banner{
-    padding:30px 30px 30px 150px ;
+    padding:30px 30px 0px 150px ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-picture{
     width: 500px;
-    /* height: 676px; */
+    
+}
+.banner-content{
+    max-width: 514px;
+}
+.banner-greeting{
+    font-size: 45px;
+   
+    color: #474747;
+    margin-bottom: 0px;
+    
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color:#181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+   width: 585px;
+   margin-bottom: 30px;
+
+}
+
+/* main section style */
+
+
+
+
+
+
+/* about section style */
+.about{
+    border-radius:10px;
+    padding: 209px 157px 156px 221px;
+    margin: 130px 0;
+    background-color:#FFF8F3 ;
 }
