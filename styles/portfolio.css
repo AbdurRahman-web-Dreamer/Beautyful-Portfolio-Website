@@ -109,7 +109,9 @@ main{
    margin:0 auto ;
 }
 
-
+main section{
+    margin-top: 130px;
+}
 
 
 /* about section style */
@@ -134,6 +136,47 @@ main{
 }
 .info-description{
     font-size: 20px;
+    font-weight: 700;
+    color:  #474747;
+}
+/* what I do section */
+#what-i-do-description{
+padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+   
+    
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    color:  #181818;
+    
+}
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    
+}
+/* rusume section style */
+.resume-container{
+  display: flex;
+  
+}
+.resume-column{
+  margin: 0 auto;
+}
+.resume-column-title{
+    font-size: 30px;
     font-weight: 700;
     color:  #474747;
 }
