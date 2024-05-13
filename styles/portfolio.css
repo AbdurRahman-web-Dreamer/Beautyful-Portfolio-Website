@@ -170,13 +170,34 @@ padding: 30px 150px;
 /* rusume section style */
 .resume-container{
   display: flex;
-  
+  gap: 50px;
 }
-.resume-column{
-  margin: 0 auto;
-}
+
+
 .resume-column-title{
     font-size: 30px;
     font-weight: 700;
     color:  #474747;
+}
+.item-title{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-bottom:20px ;
+    margin-top:10px;
+}
+ .resume-item-description,.resume-item-institute{
+    color:#757575;
+    
+    
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.download-cv{
+    margin-top: 50px;
+    text-align: center;
 }
