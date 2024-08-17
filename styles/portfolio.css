@@ -68,7 +68,7 @@ nav a{
 .banner{
     padding:30px 30px 0px 150px ;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: space-between;
 }
 .banner .profile-picture{
@@ -113,6 +113,7 @@ main section{
 .about-info-container{
   display: flex;
   justify-content: space-around;
+  
 }
 .about-info{
    text-align: center;
@@ -176,6 +177,7 @@ padding: 30px 150px;
  .resume-item-description,.resume-item-institute{
     color:#757575;
 }
+
 .resume-container hr{
     margin: 30px 0;
 }
@@ -206,4 +208,91 @@ footer{
     background-color:#FFF ;
     border: 0;
     width: 100%;
+}
+/* responsive style */
+.hide{
+    display: none;
+}
+/* mobile device */
+@media screen and (max-width:576px){
+     .skills-container , 
+     .resume-container,footer,
+     .about-info-container, 
+     nav,.banner,   
+     .banner-content , nav>ul{
+          flex-direction: column;
+     }
+    
+     .banner-content ,.banner-description{
+        display: flex;
+        width: 100%;
+       
+     }
+    
+     #what-i-do-description{
+        padding: 20px;
+     }
+     .footer-column{
+        width: 80%;
+        margin: 0 auto;
+       }
+      
+        footer ,.about,.banner{
+            padding: 10px;
+        }
+        .contact input[type="text"], .contact input[type="email"],textarea {
+            width: 90%;
+        }
+       .header{
+        background-image: none;
+       }
+       nav >ul{
+         gap: 20px;
+       
+       }
+    
+        .banner .profile-picture{
+            width: 100%;
+        }
+        .primary-button{
+            margin-bottom: 15px;
+            
+        }
+       
+}
+@media screen and (min-width:577px) and (max-width:960px) {
+    .skills-container , .resume-container,footer ,nav,.banner,   
+    .banner-content , nav>ul{
+        flex-direction: column;
+   }
+   #what-i-do-description {
+      padding: 20px;
+      
+   }
+   .resume-item-description,.skill-description{
+    width:75%;
+   }
+    .footer-column{
+    width: 70%;
+    margin: 0 auto;
+    }
+   footer ,.about{
+    padding: 30px;
+    
+}
+.primary-button{
+    margin-bottom: 15px;
+    width:100%;
+}
+.banner .profile-picture, .banner-description, .banner-content{
+    width: 100%;
+}
+nav >ul{
+    gap: 20px;
+  }
+ 
+ 
+.contact input[type="text"], .contact input[type="email"],textarea {
+    width: 80%;
+}
 }
